@@ -5,6 +5,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { FolksModule } from './folks/folks.module';
 import { ColorsModule } from './colors/colors.module';
 import { ConfigModule } from './config/config.module';
+import { HolidaysModule } from './holidays/holidays.module';
 
 const mongoSetup = {
   useNewUrlParser: true,
@@ -17,6 +18,7 @@ const mongoSetup = {
     FolksModule,
     ColorsModule,
     ConfigModule,
+    HolidaysModule,
   ],
   controllers: [AppController],
   providers: [AppService],

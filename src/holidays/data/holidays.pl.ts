@@ -1,4 +1,4 @@
-{
+export default {
   "2019": {
     "01-01": "Nowy Rok, Świętej Bożej Rodzicielki",
     "01-06": "Trzech Króli (Objawienie Pańskie)",
