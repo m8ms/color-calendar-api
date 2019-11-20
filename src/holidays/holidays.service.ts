@@ -6,7 +6,7 @@ import holidayData from './data/holidays.pl';
 export class HolidaysService {
   private readonly holidayData: {
     [key: string]: Holidays
-  }
+  };
 
   constructor(){
     this.holidayData = holidayData
