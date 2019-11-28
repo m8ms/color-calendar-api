@@ -16,7 +16,7 @@ export class FolksService {
   }
 
   async findAll(): Promise<Folk[]> {
-    return await this.folkModel.find().exec();
+    return await this.folkModel.find(null, '_id name').exec();
   }
 
   async findById(id: string): Promise<Folk> {
